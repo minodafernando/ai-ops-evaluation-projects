@@ -25,5 +25,27 @@ Each AI response was rated on a scale of 0–5 across three dimensions:
 
 ## Insights
 
+![Bar](avg_score_for_promptstyle.png)
 
-The analysis revealed strong relationships between tone and clarity, as well as an inverse relationship between clarity and accuracy — highlighting the importance of thoughtful prompt design when deploying GenAI in sensitive customer-facing environments.
+- The Friendly prompt style achieved the highest overall perfomance across clarity, accuracy, and tone, while the Direct prompt style scored the lowest.
+
+Let's dive further into these performances...
+  
+![Bar](prompt_style_performance_across_user_metrics.png)
+
+- This graph suggests that the clarity and tone of AI responses have a positive correlation, which means that more empathetic/human-sounding responses tend to be easier to read through and understand.
+- Both clarity and accuracy, as well as tone and accuracy, are negatively correlated, which indicates that legally precise answers may lower readability and warmth.
+
+I created a heatmap of the correlation matrix to validate the above relationships analytically.
+
+![Correlation Heatmap](corr_bw_scoring_metrics.png)
+
+The heatmap confirms:
+- A moderate positive correlation between clarity and tone
+  - More empathetic responses are easier to read
+- A strong negative correlation between tone and accuracy
+  - Friendlier language tends to be less legally precise
+- A very strong negative correlation between clarity and accuracy
+  - Simpler responses tend to lack key legal details
+
+These insights highlight the importance of thoughtful prompt design in GenAI for customer-facing environments.
