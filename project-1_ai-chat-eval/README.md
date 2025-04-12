@@ -1,11 +1,12 @@
-# README
+# 🧮 AI Chat Evaluation: Measuring Support Response Quality
+
 This project simulates a real-world AI Operations task: evaluating and refining customer-facing chatbot responses to improve customer experience.
 
 Using a manually scored dataset (with 15 common support queries) AI performance was assessed on 3 key dimensions: helpfulness, accuracy, and tone. Trends were analyzed across categories like billing, account issues, tech support, etc.
 
-# Key Insights and Recommendations
+## 🗂 Key Insights and Recommendations
 
-### Key Insights
+### 📊 Key Insights
 
 
 #### 
@@ -22,7 +23,7 @@ Using a manually scored dataset (with 15 common support queries) AI performance 
 
 - There is a high correlation between helpfulness and tone scores which implies that the tone has a direct impact on whether the user feels satisfied/assisted (even if the information is accurate --- this is seen by the slightly weaker correlation between accuracy and tone).
 
-### Recommendations
+### 📝 Recommendations
 
 - Improve prompt design for support and urgent-use cases with more human-like/empathetic language like "I'm sorry to hear that...", "Let me help you right away", etc.
 
