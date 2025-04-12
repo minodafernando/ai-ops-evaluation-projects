@@ -1,0 +1,10 @@
+question,prompt_style,prompt,ai_response,clarity_score,accuracy_score,tone_score
+Tenant rights in BC,Direct,What are my rights as a tenant in British Columbia?,,,,
+Tenant rights in BC,Formal,I’m a tenant living in BC. Can you summarize my legal rights according to provincial law?,,,,
+Tenant rights in BC,Friendly,Hey! I’m renting a place in BC — what kind of legal protections do I have as a tenant?,,,,
+Divorce in Ontario,Direct,How do I file for divorce in Ontario?,,,,
+Divorce in Ontario,Formal,I need to file for divorce in Ontario. Can you outline the legal steps required under provincial law?,,,,
+Divorce in Ontario,Friendly,"Hi, I live in Ontario and I’m thinking about getting divorced. What should I do first?",,,,
+Legal billing,Direct,How long do I have to pay an invoice after legal services?,,,,
+Legal billing,Formal,What are the legal rules in Canada for paying invoices after receiving services from a law firm?,,,,
+Legal billing,Friendly,I just got billed by my lawyer. Is there a deadline for when I need to pay?,,,,
